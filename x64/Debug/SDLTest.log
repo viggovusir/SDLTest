@@ -1,0 +1,27 @@
+﻿  Game.cpp
+C:\Users\viggo\source\repos\SDLTest\ECS\Systems\PhysicsSystem.cpp(19,47): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\ECS\Systems\PhysicsSystem.cpp(20,47): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(21,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(31,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(31,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(32,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(32,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(33,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(33,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(34,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(34,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(35,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(35,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(36,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(36,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(37,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(37,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(38,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(38,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Game.cpp(67,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Game.cpp(67,75): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Game.cpp(80,103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Game.cpp(80,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Game.cpp(86,103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Game.cpp(86,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  SDLTest.vcxproj -> C:\Users\viggo\source\repos\SDLTest\x64\Debug\SDLTest.exe
