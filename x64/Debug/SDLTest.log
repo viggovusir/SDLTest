@@ -1,6 +1,9 @@
-﻿  Game.cpp
-C:\Users\viggo\source\repos\SDLTest\ECS\Systems\PhysicsSystem.cpp(19,47): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\ECS\Systems\PhysicsSystem.cpp(20,47): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+﻿  Camera.cpp
+C:\Users\viggo\source\repos\SDLTest\Core\Camera.cpp(18,93): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\Camera.cpp(19,94): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\Camera.cpp(26,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\Camera.cpp(27,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Circle.cpp
 C:\Users\viggo\source\repos\SDLTest\Circle.h(21,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 C:\Users\viggo\source\repos\SDLTest\Circle.h(31,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\viggo\source\repos\SDLTest\Circle.h(31,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
@@ -18,10 +21,96 @@ C:\Users\viggo\source\repos\SDLTest\Circle.h(37,51): warning C4244: 'argument': 
 C:\Users\viggo\source\repos\SDLTest\Circle.h(37,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\viggo\source\repos\SDLTest\Circle.h(38,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\viggo\source\repos\SDLTest\Circle.h(38,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Game.cpp(67,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Game.cpp(67,75): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Game.cpp(80,103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Game.cpp(80,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Game.cpp(86,103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Game.cpp(86,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  AssetManager.cpp
+  Vector2.cpp
+  Archetype.cpp
+  CollisionManager.cpp
+C:\Users\viggo\source\repos\SDLTest\CollisionManager.h(16,2): warning C4091: 'static ': ignored on left of 'CollisionManager' when no variable is declared
+  EntityManager.cpp
+  PhysicsSystem.cpp
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\PhysicsSystem.cpp(14,2): warning C4091: 'static ': ignored on left of 'CollisionSide' when no variable is declared
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\PhysicsSystem.cpp(96,36): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\PhysicsSystem.cpp(97,36): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  PlayerSystem.cpp
+  RenderSystem.cpp
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(48,75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(48,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(48,41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(51,64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(51,41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(96,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Game.cpp
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(48,75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(48,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(48,41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(51,64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(51,41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(96,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\PhysicsSystem.cpp(14,2): warning C4091: 'static ': ignored on left of 'CollisionSide' when no variable is declared
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\PhysicsSystem.cpp(96,36): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\PhysicsSystem.cpp(97,36): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(21,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(31,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(31,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(32,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(32,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(33,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(33,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(34,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(34,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(35,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(35,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(36,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(36,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(37,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(37,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(38,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Circle.h(38,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\Game.cpp(95,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\Game.cpp(95,75): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\Game.cpp(107,106): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\Game.cpp(107,74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\Game.cpp(169,97): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\Game.cpp(169,72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_impl_sdl3.cpp
+  imgui_impl_sdlgpu3.cpp
+  imgui_impl_sdlrenderer3.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  Generating Code...
+C:\Users\viggo\source\repos\SDLTest\CollisionManager.cpp(110): warning C4172: returning address of local variable or temporary: res
+C:\Users\viggo\source\repos\SDLTest\CollisionManager.cpp(53): warning C4172: returning address of local variable or temporary: min
+C:\Users\viggo\source\repos\SDLTest\CollisionManager.cpp(71): warning C4172: returning address of local variable or temporary: max
+C:\Users\viggo\source\repos\SDLTest\CollisionManager.cpp(80): warning C4172: returning address of local variable or temporary: max
+C:\Users\viggo\source\repos\SDLTest\CollisionManager.cpp(62): warning C4172: returning address of local variable or temporary: min
+C:\Users\viggo\source\repos\SDLTest\CollisionManager.cpp(44): warning C4172: returning address of local variable or temporary: res
+C:\Users\viggo\source\repos\SDLTest\Core\Math\Vector2.h(24): warning C4172: returning address of local variable or temporary: res
+  Compiling...
+  Input.cpp
+C:\Users\viggo\source\repos\SDLTest\Core\Input.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\viggo\source\repos\SDLTest\Core\Input.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  main.cpp
+  Rope.cpp
+C:\Users\viggo\source\repos\SDLTest\Rope.cpp(41,46): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Rope.cpp(67,28): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\viggo\source\repos\SDLTest\Rope.cpp(68,28): warning C4553: '==': result of expression not used; did you intend '='?
+  TestGameScene.cpp
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(48,75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(48,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(48,41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(51,64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(51,41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\RenderSystem.cpp(96,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\PhysicsSystem.cpp(14,2): warning C4091: 'static ': ignored on left of 'CollisionSide' when no variable is declared
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\PhysicsSystem.cpp(96,36): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Core\ECS\Systems\PhysicsSystem.cpp(97,36): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\scenes\TestGameScene.cpp(30,104): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\scenes\TestGameScene.cpp(30,82): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\scenes\TestGameScene.cpp(41,112): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\scenes\TestGameScene.cpp(41,74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
   SDLTest.vcxproj -> C:\Users\viggo\source\repos\SDLTest\x64\Debug\SDLTest.exe

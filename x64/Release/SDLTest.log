@@ -1,16 +1,12 @@
-﻿  Camera.cpp
-C:\Users\viggo\source\repos\SDLTest\Camera.cpp(18,68): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Camera.cpp(19,68): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Camera.cpp(26,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Camera.cpp(27,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  EntityManager.cpp
-  BallSystem.cpp
-  PhysicsSystem.cpp
-C:\Users\viggo\source\repos\SDLTest\ECS\Systems\PhysicsSystem.cpp(19,47): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\ECS\Systems\PhysicsSystem.cpp(20,47): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-  Game.cpp
-C:\Users\viggo\source\repos\SDLTest\ECS\Systems\PhysicsSystem.cpp(19,47): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\ECS\Systems\PhysicsSystem.cpp(20,47): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+﻿  Game.cpp
+C:\Users\viggo\source\repos\SDLTest\ECS\Systems\RenderSystem.cpp(48,75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\ECS\Systems\RenderSystem.cpp(48,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\ECS\Systems\RenderSystem.cpp(48,41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\ECS\Systems\RenderSystem.cpp(51,64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\ECS\Systems\RenderSystem.cpp(51,41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\ECS\Systems\RenderSystem.cpp(90,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\ECS\Systems\PhysicsSystem.cpp(24,47): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\ECS\Systems\PhysicsSystem.cpp(25,47): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
 C:\Users\viggo\source\repos\SDLTest\Circle.h(21,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 C:\Users\viggo\source\repos\SDLTest\Circle.h(31,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\viggo\source\repos\SDLTest\Circle.h(31,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
@@ -28,18 +24,15 @@ C:\Users\viggo\source\repos\SDLTest\Circle.h(37,51): warning C4244: 'argument': 
 C:\Users\viggo\source\repos\SDLTest\Circle.h(37,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\viggo\source\repos\SDLTest\Circle.h(38,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\viggo\source\repos\SDLTest\Circle.h(38,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Game.cpp(67,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Game.cpp(67,75): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Game.cpp(80,99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Game.cpp(80,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Game.cpp(86,99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\viggo\source\repos\SDLTest\Game.cpp(86,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Input.cpp
-C:\Users\viggo\source\repos\SDLTest\Input.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\viggo\source\repos\SDLTest\Input.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  main.cpp
+C:\Users\viggo\source\repos\SDLTest\Game.cpp(90,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Game.cpp(90,75): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Game.cpp(102,106): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Game.cpp(102,74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Game.cpp(161,97): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\viggo\source\repos\SDLTest\Game.cpp(161,72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating code
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-  All 3218 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  3 of 3174 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    22 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   SDLTest.vcxproj -> C:\Users\viggo\source\repos\SDLTest\x64\Release\SDLTest.exe

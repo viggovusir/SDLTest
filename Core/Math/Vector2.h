@@ -11,10 +11,10 @@ public:
 	Vector2& Add(const Vector2& vec);
 
 	Vector2& Subtract(const Vector2& vec);
-	
+
 	Vector2& Divide(const float divisor);
 	Vector2& Divide(const Vector2& divisor);
-	
+
 	Vector2& Normalize();
 
 	float Magnitude();
@@ -44,5 +44,31 @@ public:
 	}
 
 	friend Vector2& operator+(Vector2& vec1, const Vector2& vec2);
+	Vector2& operator+=(const Vector2& other) {
+		this->x += other.x;
+		this->y += other.y;
+
+		return *this;
+	}
+
+	Vector2& operator+=(const float& other) {
+		this->x += other;
+		this->y += other;
+
+		return *this;
+	}
+
 	friend Vector2& operator-(Vector2& vec1, const Vector2& vec2);
+	Vector2& operator-=(const float& other) {
+		this->x -= other;
+		this->y -= other;
+
+		return *this;
+	}
+
+	Vector2& operator*(const float& factor) {
+		this->x *= factor;
+		this->y *= factor;
+		return *this;
+	}
 };

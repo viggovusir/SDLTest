@@ -40,8 +40,14 @@ Vector2& Vector2::Divide(const Vector2& divisor) {
 }
 
 Vector2& Vector2::Normalize() {
-	return this->Divide(this->Magnitude());
+	float mag = this->Magnitude();
+	if (mag != 0.0f) {
+		return this->Divide(mag);
+	}
+	return *this;
 }
+
+
 
 float Vector2::Magnitude() {
 	return std::sqrt((this->x * this->x) + (this->y * this->y));
